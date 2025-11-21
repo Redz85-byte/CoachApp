@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity } from "react-native";
 import { Calendar } from "react-native-calendars";
 
-// 🔹 Luo treenit neljäksi kuukaudeksi eteenpäin
+//Luo treenit neljäksi kuukaudeksi eteenpäin
 function generateTrainingsForNextMonths(monthsAhead = 5) {
     const trainings: Record<string, any[]> = {};
     const start = dayjs();
@@ -14,11 +14,10 @@ function generateTrainingsForNextMonths(monthsAhead = 5) {
 
         for (let d = 1; d <= daysInMonth; d++) {
             const date = month.date(d);
-            const weekday = date.day(); // 0=Sun, 1=Mon, 2=Tue, 3=Wed, 4=Thu, 5=Fri, 6=Sat
+            const weekday = date.day(); 
 
             let training = null;
 
-            // 🔸 Ti, To, Pe 15:30–17:15 (kaksi samaa paikkaa, yksi eri)
             if ([2, 4, 5].includes(weekday)) {
                 training = {
                     name: "Lajiharjoitus",
@@ -31,7 +30,6 @@ function generateTrainingsForNextMonths(monthsAhead = 5) {
                 };
             }
 
-            // 🔸 Keskiviikkoisin 16:00–17:00 sali
             if (weekday === 3) {
                 training = {
                     name: "Saliharjoitus",
@@ -68,9 +66,9 @@ export default function TrainingCalendar() {
     return (
         <ScrollView style={styles.container}>
          <Text style={styles.title}>Kalenteri</Text>
-
+ 
             <Calendar
-                firstDay={1} // 🔹 Kalenteri alkaa maanantaista
+                firstDay={1}
                 initialDate={today}
                 onDayPress={(day) => setSelectedDate(day.dateString)}
                 markedDates={{
