@@ -1,0 +1,59 @@
+Oppimispäiväkirja:(otettu Frontend kurssilta (en löytänyt muuta pohjaa materiaalista))
+
+
+• Mikä lopputyössä oli vaikeaa ja mikä helppoa?
+
+Vaikeata oli tietokannan luonti tähän projektiin. En saanut luotua tietokantaa (sqlite). Markkereiden saaminen
+kartalle oli myös haastavaa. En saanut tehtyä sitä sellain, että se näyttäisi jalkapallo kentät Suomessa. Koodin logiikan rakentaminen niin, että eri osat (viikkosuunnitelma, teemat, laajennettavat jaksonäkymät) toimivat oikein ja synkronoivat nykyisen viikon kanssa.
+
+Helppoa oli Staattisen viikkosuunnitelman ja teemojen näyttäminen ScrollView:ssä oli melko suoraviivaista.
+Pienempien komponenttien kuten WeekItem ja PeriodComponent luominen Reactissa oli selkeää ja järkevää.
+
+
+
+• Mikä auttoi minua selviämään vaikeista kohdista? Oliko jotain erityistä mikä teki oppimisen vaikeaksi?
+
+Dokumentaatio ja kurssimateriaali. Ei tehnyt sinäänsä vaikeaksi vaan aikaa oli rajallinen määrä itselläni
+ja en vain yksinkertaisesti kerennyt tekemään parempaa sovellusta.
+
+
+
+• Miten selvitit esteet, jotka vaikuttivat tehtävän suorittamiseen?
+
+En pystynyt tekemään markkereita ja tietokantaa sovellukselle. Muissa ongelma tilanteissa käytin kurssimateriaali ja expo 
+dokumentaatiota sekä Youtubea ja mahdottomissa tilanteissa sparrailin tekoälyn kanssa. 
+
+
+
+
+• Käytitkö lopputyössä teknologioita, komponentteja jne., joita ei kurssilla
+käsitelty? Mitä?
+
+Käytin Imagepickeriä kuvien tuomiseen kameran rullassa. 
+
+
+
+• Arvioi Mobiiliohjelmointi -ohjelmoinnin osaamistasi kurssin jälkeen? Täyttyivätkö
+
+Kurssin jälkeen koen, että ohjelmointitaitoni mobiilikehityksessä ovat vahvistuneet merkittävästi. 
+Opin hallitsemaan React Native -perusteet, komponenttien ja tilanhallinnan käytön 
+sekä käyttäjäystävällisen käyttöliittymän rakentamisen.
+
+
+• Kuinka aktiivinen olit opintojaksolla? Oliko jotain mitä olisit mielestäsi voinut tehdä oppimisen kannalta paremmin?
+
+Muutama luento taisi jäädä välistä, mutta muuten kävin aktiivisesti luennoilla. Omassa tekemisessä olisi voinut toki
+olla vielä aktiivisempi ja tehdä enemmän kurssilla olevia tehtäviä.
+
+
+
+• Miten kehittäisit opintojaksoa?
+Opintojakso oli hyvä!
+
+
+
+• Miten arvioisit oman lopputyösi arvosanalla 1–5? Perustele arviosi
+
+Arvioisin lopputyön 2-3. En saanut markkereita näkyviin karttaan ja enkä saanut tietokantaa tähän projektiin,
+Tavoitteena on kuitenkin jatkaa ja kehittää tätä projektia eteenpäin. Valitettavasti kurssin aikana minulla oli 
+rajallinen määrää aikaa käyttää tähän koulun ja töitten ohella. 
