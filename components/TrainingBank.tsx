@@ -53,7 +53,6 @@ export default function TrainingBank() {
         },
     ];
 
-    // Päivitetty ottamaan kuva CameraView:llä
     const takePicture = async () => {
         if (!cameraRef.current) return;
 

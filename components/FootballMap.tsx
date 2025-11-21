@@ -20,7 +20,7 @@ const FootballMap = () => {
       );
       const json = await res.json();
 
-      console.log(json.local_results); // Tarkista data DevToolsista
+      console.log(json.local_results); 
 
       const results: FieldResult[] = (json.local_results || [])
         .filter((item: any) => item.gps_coordinates)

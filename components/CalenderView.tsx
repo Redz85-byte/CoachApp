@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity } from "react-native";
 import { Calendar } from "react-native-calendars";
 
-//Luo treenit neljäksi kuukaudeksi eteenpäin
+// Luo treenit neljäksi kuukaudeksi eteenpäin
 function generateTrainingsForNextMonths(monthsAhead = 5) {
     const trainings: Record<string, any[]> = {};
     const start = dayjs();
